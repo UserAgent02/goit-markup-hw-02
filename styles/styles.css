@@ -1,0 +1,228 @@
+body {
+    font-family: "Roboto" , Tahoma, sans-serif;
+    background: #FFFFFF;
+}
+/*hidden h1 to portfolio page*/
+.hidden {
+    visibility: hidden;
+}
+/*logo*/
+.logo-color{
+    color: #2196F3;
+}
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: black;
+}
+/*contact link*/
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.nav-link:hover,.nav-link:focus {
+    color: #2196F3;
+}
+
+.nav-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.nav-mail:hover, .nav-mail:focus {
+    color: #2196F3;
+}
+
+.nav-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.nav-tel:hover, .nav-tel:focus{
+    color: #2196F3;
+}
+/*bg-head*/
+.bg-head {
+    background-color: #2F303A;
+}
+.bg-head-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.bg-head-btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+/*properties*/
+.properties-list {
+    list-style: none;
+}
+.properties-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.properties-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*work*/
+.work-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.work-list {
+    list-style: none;
+}
+
+/*team*/
+.team {
+    background-color: #F5F4FA;
+}
+.team-list {
+    list-style: none;
+}
+.team-sub-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /*text-align: center;*/
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    /*text-align: center;*/
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*footer*/
+.footer {
+    background-color: #2F303A;
+}
+.footer-text {
+   font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF; 
+}
+.footer-mail, .footer-tel {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover, .footer-mail:focus {
+    color: #2196F3;
+}
+.footer-tel:hover, .footer-tel:focus {
+    color: #2196F3;
+}
+/*Portfolio*/
+/*radio button*/
+.radio-button-list {
+    list-style: none;
+}
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    cursor: pointer;
+}
+.button:hover {
+    color:#FFFFFF;
+    background-color: #2196F3;
+} 
+.button:focus {
+    color:#FFFFFF;
+    background: #2196F3;
+} 
+/*cards*/
+.cards-list {
+    list-style: none;
+}
+.cards-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.87;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.cards-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
