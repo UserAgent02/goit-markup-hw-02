@@ -44,7 +44,7 @@ ul, ol {
 .nav-link:hover,.nav-link:focus {
     color: var(--main-color);
 }
-.nav-link:current {
+.nav-link.current {
     color: var(--main-color);   
 }
 
