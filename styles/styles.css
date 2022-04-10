@@ -44,6 +44,10 @@ ul, ol {
 .nav-link:hover,.nav-link:focus {
     color: var(--main-color);
 }
+.nav-link:current {
+    color: var(--main-color);   
+}
+
 
 .nav-mail {
     font-weight: 500;
@@ -180,6 +184,9 @@ ul, ol {
 }
 .footer-tel:hover, .footer-tel:focus {
     color: var(--main-color);
+}
+.footer-logo-color {
+    color: #FFFFFF;
 }
 /*Portfolio*/
 /*radio button*/
